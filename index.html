@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>铁路货运行业简报 | 2026-03-30</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; }
-        .container { max-width: 1000px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; }
-        .header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 50px 40px; text-align: center; }
-        .header h1 { font-size: 36px; margin-bottom: 10px; font-weight: 700; }
-        .header .subtitle { font-size: 18px; opacity: 0.9; margin-bottom: 5px; }
-        .header .date { font-size: 14px; opacity: 0.8; }
-        .publisher { background: #f8f9fa; padding: 25px 40px; border-bottom: 3px solid #667eea; }
-        .publisher-info { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
-        .publisher-name { font-size: 18px; font-weight: 600; color: #1e3c72; }
-        .publisher-org { font-size: 14px; color: #666; }
-        .content { padding: 40px; }
-        .article-card { background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 25px; margin-bottom: 20px; transition: all 0.3s; }
-        .article-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-2px); }
-        .article-title { font-size: 20px; font-weight: 600; color: #1e3c72; margin-bottom: 10px; }
-        .article-title a { color: #1e3c72; text-decoration: none; }
-        .article-title a:hover { color: #667eea; text-decoration: underline; }
-        .article-meta { display: flex; gap: 20px; margin-bottom: 12px; font-size: 14px; color: #666; }
-        .article-meta .source { color: #2196f3; font-weight: 500; }
-        .article-summary { color: #555; line-height: 1.8; margin-bottom: 15px; }
-        .article-link { display: inline-block; color: #667eea; text-decoration: none; font-size: 14px; font-weight: 500; }
-        .article-link:hover { text-decoration: underline; }
-        .footer { background: #f8f9fa; padding: 30px 40px; text-align: center; border-top: 1px solid #e0e0e0; }
-        .footer p { color: #666; font-size: 14px; margin: 5px 0; }
-        @media (max-width: 768px) { .header { padding: 30px 20px; } .header h1 { font-size: 28px; } .content { padding: 20px; } }
-    </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>铁路货运行业简报 | 2026-03-30</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#333;background:linear-gradient(135deg,#667eea,#764ba2);padding:20px}
+.container{max-width:1000px;margin:0 auto;background:#fff;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.3);overflow:hidden}
+.header{background:linear-gradient(135deg,#1e3c72,#2a5298);color:#fff;padding:50px 40px;text-align:center}
+.header h1{font-size:36px;margin-bottom:10px;font-weight:700}
+.header .subtitle{font-size:18px;opacity:.9;margin-bottom:5px}
+.header .date{font-size:14px;opacity:.8}
+.publisher{background:#f8f9fa;padding:25px 40px;border-bottom:3px solid #667eea}
+.publisher-info{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.publisher-name{font-size:18px;font-weight:600;color:#1e3c72}
+.publisher-org{font-size:14px;color:#666}
+.content{padding:40px}
+.column{margin-bottom:40px}
+.column-header{background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;padding:15px 25px;border-radius:8px;margin-bottom:20px;display:flex;align-items:center;justify-content:space-between}
+.column-title{font-size:22px;font-weight:700;display:flex;align-items:center}
+.column-title .emoji{margin-right:10px;font-size:26px}
+.column-count{background:rgba(255,255,255,.2);padding:4px 12px;border-radius:12px;font-size:14px}
+.article-card{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:25px;margin-bottom:18px;transition:all .3s}
+.article-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.1);transform:translateY(-2px)}
+.article-title{font-size:19px;font-weight:600;color:#1e3c72;margin-bottom:8px}
+.article-title a{color:#1e3c72;text-decoration:none}
+.article-title a:hover{color:#667eea;text-decoration:underline}
+.article-meta{display:flex;gap:20px;margin-bottom:10px;font-size:14px;color:#666}
+.article-meta .source{color:#2196f3;font-weight:500}
+.article-summary{color:#555;line-height:1.7;margin-bottom:12px;font-size:15px}
+.article-link{display:inline-block;color:#667eea;text-decoration:none;font-size:14px;font-weight:500}
+.article-link:hover{text-decoration:underline}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:15px;margin-bottom:30px}
+.stat{background:#f8f9fa;padding:18px;border-radius:8px;text-align:center;border-left:4px solid #667eea}
+.stat .label{font-size:13px;color:#666;margin-bottom:6px}
+.stat .value{font-size:28px;font-weight:700;color:#667eea}
+.footer{background:#f8f9fa;padding:30px 40px;text-align:center;border-top:1px solid #e0e0e0}
+.footer p{color:#666;font-size:14px;margin:5px 0}
+@media(max-width:768px){.header{padding:30px 20px}.header h1{font-size:26px}.content{padding:20px}.column-title{font-size:18px}}
+</style>
 </head>
 <body>
 <div class="container">
@@ -41,61 +49,123 @@
     </div>
     <div class="publisher">
         <div class="publisher-info">
-            <div>
-                <div class="publisher-name">出版人：刘耕辰</div>
-                <div class="publisher-org">G7易流 | 铁路货运数字化专家</div>
-            </div>
+            <div><div class="publisher-name">出版人：刘耕辰</div><div class="publisher-org">G7易流 | 铁路货运数字化专家</div></div>
             <div class="publisher-org">每日更新 | 专注行业动态</div>
         </div>
     </div>
     <div class="content">
-        <div class="article-card">
-            <div class="article-title"><a href="articles/article-1.html">中欧班列运力大比拼：成渝是主力 辽宁广西将成新星</a></div>
-            <div class="article-meta"><span class="source">📌 21世纪经济报道</span><span>📝 2855字</span></div>
-            <div class="article-summary">全面分析中欧班列各开行城市的运力布局和发展态势。成都、重庆作为主力军，开行量遥遥领先；西安、郑州、武汉等中部城市快速崛起；辽宁、广西等沿海沿边地区正在成为新的增长极。</div>
-            <a href="articles/article-1.html" class="article-link">阅读全文 →</a>
+        <div class="stats">
+            <div class="stat"><div class="label">本期文章</div><div class="value">13</div></div>
+            <div class="stat" style="border-left-color:#4caf50"><div class="label">总字数</div><div class="value">45,398</div></div>
+            <div class="stat" style="border-left-color:#ff9800"><div class="label">栏目数</div><div class="value">4</div></div>
+            <div class="stat" style="border-left-color:#e91e63"><div class="label">全文收录</div><div class="value">✓</div></div>
         </div>
 
-        <div class="article-card">
-            <div class="article-title"><a href="articles/article-2.html">中欧班列"跑"出新纪录</a></div>
-            <div class="article-meta"><span class="source">📌 海外网</span><span>📝 2095字</span></div>
-            <div class="article-summary">中欧班列开行数量再创新高，展现强劲发展势头。文章详细报道了中欧班列在运输量、覆盖范围、服务质量等方面的最新突破，分析了其在服务"一带一路"建设、促进国际贸易中的重要作用。</div>
-            <a href="articles/article-2.html" class="article-link">阅读全文 →</a>
+        <div class="column">
+            <div class="column-header">
+                <div class="column-title"><span class="emoji">📰</span>行业新闻</div>
+                <div class="column-count">7篇</div>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-1.html">中欧班列运力大比拼：成渝是主力 辽宁广西将成新星</a></div>
+                <div class="article-meta"><span class="source">📌 21世纪经济报道</span><span>📝 2855字</span></div>
+                <div class="article-summary">点击上方 蓝字 ，关注21君~ 走进经济生活里的一切 从2011年至今，中欧班列已经开行突破5000列。目前有超过50座城市开通了定期或不定期的中欧班列，但要形成优势，还需要诸多条件作为支撑。成都、重庆依然是中欧班列开行线路、班次、货运量最高的城市，广西因其地理优势，或是未来热点区域。辽宁大连依托其背靠日韩面朝俄罗斯的地理优势，近年的中欧班列开行频次逐渐提高。 从2011年至今，中欧班列已经开行突...</div>
+                <a href="articles/article-1.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-2.html">中欧班列跑出新纪录</a></div>
+                <div class="article-meta"><span class="source">📌 海外网</span><span>📝 2095字</span></div>
+                <div class="article-summary">作者 | 李婕 ▲今年以来，河南省中欧班列（中豫号）开行需求旺盛，前7个月累计开行964列，同比增长13.5%。图为日前在河南省郑州市，中欧班列从中国铁路郑州局集团有限公司圃田站驶出。王玮摄（人民视觉） ▲近来，中国铁路呼和浩特局集团有限公司高效统筹疫情防控和运输服务保障工作，精准高效开好中欧班列，确保重点物资应运尽运。图为呼和浩特市沙良物流园内机械设备在繁忙作业。夏亮摄（人民视觉） 古有丝绸之路...</div>
+                <a href="articles/article-2.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-3.html">中欧班列长安号开行量突破3000列</a></div>
+                <div class="article-meta"><span class="source">📌 西安大交通发布</span><span>📝 2597字</span></div>
+                <div class="article-summary">2022年以来 西安加快推进 中欧班列（西安）集结中心建设 积极拓展多式联运 持续提升长安号运行质效 截至9月27日 中欧班列长安号开行量 比去年提前13天 突破3000列 9月27日下午，市政府新闻办举行中欧班列长安号2022年开行突破3000列新闻发布会，并答记者问。 发布会上，国际港务区管委会副主任杨祎介绍中欧班列长安号高质量开行及中欧班列（西安）集结中心建设情况。 中欧班列长安号自2013...</div>
+                <a href="articles/article-3.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-4.html">对标欧美，我国多式联运需突破五大瓶颈</a></div>
+                <div class="article-meta"><span class="source">📌 物流行业观察</span><span>📝 4708字</span></div>
+                <div class="article-summary">多式联运的概念在我国已经提出多年，目标是公铁水航等多种货运方式实现无缝衔接 。 多年来 ， 多式联运 在国家顶层规划和各种政策的强力推进下虽有起色，但依然与发达国家的市场相距甚远。因此， 我国发展 多式联运应首先明确 其 存在的主要问题，并借鉴多式联运演进规律， 方能 找出突破的路径。 多式联运的起源及演进 ‍ ‍ 1766年，英国工程师詹姆斯・布林徳利设计出了一种运输煤块的箱子船，可容纳10个木...</div>
+                <a href="articles/article-4.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-5.html">港口也有无轨铁路货场了</a></div>
+                <div class="article-meta"><span class="source">📌 港口圈</span><span>📝 1096字</span></div>
+                <div class="article-summary">无轨铁路货场 门到门 无轨铁路货场大百科↓↓↓ 4月4日，满载瓷砖及调味品的100个20英尺集装箱在佛山高明港装班轮启航，经水运抵达四会南江码头后，由汽车短驳至广州局集团公司三水西铁路货场，再通过铁路货运班列运往云南王家营西站。 佛山高明港没有专用铁路，离最近的铁路货场也有近30公里的距离。以前，港口周边的企业到铁路货场发货，很不方便。而现在，厂门口的港口就相当于铁路的货场，在港口发货就相当于在铁...</div>
+                <a href="articles/article-5.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-6.html">青山南路铁路货场何时搬离？官方回复</a></div>
+                <div class="article-meta"><span class="source">📌 南京发布</span><span>📝 1385字</span></div>
+                <div class="article-summary">热点推荐 教育正在疯狂输入！齐活了！它有点超预期了！10300元/㎡的均价！价格真的很香！ 关于二七隧道，早在2018年就计划启动建设，但因为投资规模大且施工难度高，再加上拆迁问题，直至今日也未能有实质性进展。 项目一直处于前期谋划阶段。 2023年1月28日，我市召开2023年城建口重大重点项目建设动员部署会，也明确了 二七隧道（过江隧道）已纳入南昌市综合交通规划。 而对于沿线的拆迁问题，近日官...</div>
+                <a href="articles/article-6.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-7.html">省内规模最大的铁路货场就在尧化门</a></div>
+                <div class="article-meta"><span class="source">📌 南京交通</span><span>📝 683字</span></div>
+                <div class="article-summary">3月30上午， 正式开通运营。尧化门站货场是 ，今后将成为 ，主要用以满足南京地区及周边企业物流需求。 尧化门站货场位于 ，毗邻栖霞大道，距离312国道5公里、宁洛高速柳塘立3公里，距离长深高速入口9公里， 。 该货场自2016年6月10日开工以来，经过近两年的建设，目前是 ，总面积64万平方米，年设计能力350万吨，建有到发线7条（含正线），货物线11条。 货场以零散货物为主，货物线采用贯通式布...</div>
+                <a href="articles/article-7.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
         </div>
 
-        <div class="article-card">
-            <div class="article-title"><a href="articles/article-3.html">中欧班列长安号开行量，突破3000列！</a></div>
-            <div class="article-meta"><span class="source">📌 西安大交通发布</span><span>📝 2597字</span></div>
-            <div class="article-summary">西安中欧班列长安号开行量突破3000列大关，成为中欧班列的重要枢纽。文章介绍了西安班列的发展历程、运营特色、货源结构等，展现了西部地区在国际物流中的重要地位。</div>
-            <a href="articles/article-3.html" class="article-link">阅读全文 →</a>
+        <div class="column">
+            <div class="column-header">
+                <div class="column-title"><span class="emoji">📋</span>政策解读</div>
+                <div class="column-count">2篇</div>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-8.html">交通物流降本提质增效行动实施方案解读</a></div>
+                <div class="article-meta"><span class="source">📌 陕西省物流与采购联合会</span><span>📝 10851字</span></div>
+                <div class="article-summary">交通物流是推进降低全社会物流成本的关键领域，发挥着先导性、基础性、保障性作用。近日，交通运输部联合有关部门印发了《交通物流降本提质增效行动计划》以及铁路、公路、水运、民航、邮政分领域实施方案，构建了“1+5”政策框架体系。我们邀请相关专家进行解读，第二期为《交通物流降本提质增效行动铁路、公路、水运、民航、邮政领域实施方案》解读。 1.推进铁路货运市场化改革（韩纯良） 2.加快构建现代公路物流体系（...</div>
+                <a href="articles/article-8.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-9.html">十八部门联合发布通知，助力多式联运发展</a></div>
+                <div class="article-meta"><span class="source">📌 交通运输部</span><span>📝 4678字</span></div>
+                <div class="article-summary">物流时代周刊1月4日消息，交通运输部等十八个部门发布了《关于进一步鼓励开展多式联运工作的通知》（以下简称《通知》）。 当前，我国多式联运发展水平仍然较低，协同衔接不顺畅、市场环境不完善、法规标准不适应、先进技术应用滞后等问题较为突出。为进一步加快多式联运发展，构建高效顺畅的多式联运系统，经国务院同意交通运输部等十八个部门联合发布此《通知》。 各省、自治区、直辖市人民政府，国务院各部委、各直属机构：...</div>
+                <a href="articles/article-9.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
         </div>
 
-        <div class="article-card">
-            <div class="article-title"><a href="articles/article-4.html">《交通物流降本提质增效行动实施方案》解读</a></div>
-            <div class="article-meta"><span class="source">📌 陕西省物流与采购联合会</span><span>📝 10851字</span></div>
-            <div class="article-summary">深度解读交通物流降本提质增效行动方案。系统分析了铁路在降低物流成本中的关键作用，提出了具体的实施路径和政策措施。重点包括：优化运输组织、提升服务质量、推进多式联运、加强信息化建设等。</div>
-            <a href="articles/article-4.html" class="article-link">阅读全文 →</a>
+        <div class="column">
+            <div class="column-header">
+                <div class="column-title"><span class="emoji">🎓</span>行业干货</div>
+                <div class="column-count">4篇</div>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-10.html">为何说提升铁路占比为物流降本增效的重要手段</a></div>
+                <div class="article-meta"><span class="source">📌 中铁95306</span><span>📝 4290字</span></div>
+                <div class="article-summary">作者 | 姜明团队 来源 | 姜明交运观察 核心内容 物流成本较高，仍存压缩空间 从效率和质量来看，我国的物流产业仍有改进空间：物流费用占 GDP 的比重仍然较高，其中运输环节的占比过半。因此我们在过去 2 年，看到了大量自上而下鼓励物流行业降本增效的文件出台，从指导性文件到逐步细化。我们认为中国物流成本较高的原因在于几点： 1）结构，大量本应由铁路与水路运输的商品由公路运输； 2）接驳：多式联运...</div>
+                <a href="articles/article-10.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-11.html">铁路物流中心降本增效有实招</a></div>
+                <div class="article-meta"><span class="source">📌 陕焦化工有限公司</span><span>📝 910字</span></div>
+                <div class="article-summary">今年以来， 复杂的市场行情使 煤化工企业 处在了生存的风口浪尖 ，面对复杂的市场环境，公司以 战危机，保生存 为主线，不断提升公司经营管控能力。负责公司接卸原料煤及产品发运的 铁路物流中心围绕这一主线，不断优化作业流程，实现安全高效、多装快运，以实际行动助力公司减亏、治亏。 居危思变 责任 在肩。 围绕着保生存、降成本、提效益，该 中心主动作为，居危思变， 结合中心业务 召开专题会议， 制定 治亏...</div>
+                <a href="articles/article-11.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-12.html">如何加快推进多式联运一单制一箱制发展</a></div>
+                <div class="article-meta"><span class="source">📌 交通运输部</span><span>📝 7545字</span></div>
+                <div class="article-summary">的印发有何重要意义？如何更好解决制约“一单制”“一箱制”发展的痛点难点堵点问题？如何发挥铁路在多式联运中的重要作用？三位专家从不同角度对此进行了解读。 刘昕 交通运输部规划研究院院长、党委副书记 向上滑动阅览 《意见》指明了当前和未来一段时期，多式联运”一单制”“一箱制”发展的总体思路、发展目标和主要任务，对于构建现代综合交通运输体系、更好服务构建新发展格局、加快建设交通强国具有重要意义。 发展多...</div>
+                <a href="articles/article-12.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
+            <div class="article-card">
+                <div class="article-title"><a href="articles/article-13.html">加快发展国际多式联运，推动形成全面开放新格局</a></div>
+                <div class="article-meta"><span class="source">📌 中国物流与采购联合会</span><span>📝 1705字</span></div>
+                <div class="article-summary">习近平总书记在党的十九大报告中指出，推动形成全面开放新格局，加强创新能力开放合作，形成陆海内外联动，东西双向互济的开放格局。加快国际多式联运发展，推动物流行业降本增效，是建设一带一路、扩大对外开放的重要抓手。 为此，全国政协委员、重庆海关关长刘魏巍提出了 的个人提案。 多式联运作为一种集约高效的运输组织方式，能够充分发挥各种运输方式的比较优势和组合效率，对于推动交通运输行业转型升级、支撑经济提质降...</div>
+                <a href="articles/article-13.html" class="article-link">阅读全文 &rarr;</a>
+            </div>
         </div>
 
-        <div class="article-card">
-            <div class="article-title"><a href="articles/article-5.html">为何说提升铁路占比为物流降本增效的重要手段？</a></div>
-            <div class="article-meta"><span class="source">📌 中铁95306</span><span>📝 4290字</span></div>
-            <div class="article-summary">深度分析铁路运输在降低物流成本中的关键作用。从运输成本、能源消耗、环境影响等多个维度，系统论证了提升铁路运输占比的必要性和可行性。通过"公转铁"，企业物流成本可降低20-30%。</div>
-            <a href="articles/article-5.html" class="article-link">阅读全文 →</a>
-        </div>
-
-        <div class="article-card">
-            <div class="article-title"><a href="articles/article-6.html">铁路物流中心降本增效有实招</a></div>
-            <div class="article-meta"><span class="source">📌 陕焦化工有限公司</span><span>📝 910字</span></div>
-            <div class="article-summary">铁路物流中心降本增效实战案例分享。通过优化作业流程、提升装卸效率、减少空驶率、加强成本管控等措施，实现年度成本下降15%、效率提升25%。</div>
-            <a href="articles/article-6.html" class="article-link">阅读全文 →</a>
-        </div>
     </div>
     <div class="footer">
         <p><strong>出版人：</strong>刘耕辰 | G7易流</p>
         <p><strong>发布时间：</strong>2026年3月30日</p>
         <p><strong>简报编号：</strong>001 | 每日更新</p>
-        <p style="margin-top:15px;color:#999;">本期共6篇文章，总计23,598字 | 所有文章内容已完整收录</p>
+        <p style="margin-top:15px;color:#999">本期共13篇文章，总计45,398字 | 所有文章内容已完整收录，点击即可阅读全文</p>
     </div>
 </div>
 </body>
