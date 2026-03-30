@@ -6,12 +6,7 @@
     <title>铁路货运行业简报 | 2026-03-30</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
-            line-height: 1.8; color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; }
         .container { max-width: 1000px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; }
         .header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 50px 40px; text-align: center; }
         .header h1 { font-size: 36px; margin-bottom: 10px; font-weight: 700; }
@@ -22,11 +17,6 @@
         .publisher-name { font-size: 18px; font-weight: 600; color: #1e3c72; }
         .publisher-org { font-size: 14px; color: #666; }
         .content { padding: 40px; }
-        .column { margin-bottom: 50px; }
-        .column-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 25px; border-radius: 8px; margin-bottom: 25px; display: flex; align-items: center; justify-content: space-between; }
-        .column-title { font-size: 24px; font-weight: 700; display: flex; align-items: center; }
-        .column-title .emoji { margin-right: 12px; font-size: 28px; }
-        .column-count { background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 12px; font-size: 14px; }
         .article-card { background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 25px; margin-bottom: 20px; transition: all 0.3s; }
         .article-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-2px); }
         .article-title { font-size: 20px; font-weight: 600; color: #1e3c72; margin-bottom: 10px; }
@@ -37,13 +27,8 @@
         .article-summary { color: #555; line-height: 1.8; margin-bottom: 15px; }
         .article-link { display: inline-block; color: #667eea; text-decoration: none; font-size: 14px; font-weight: 500; }
         .article-link:hover { text-decoration: underline; }
-        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
-        .stat-card { background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; border-left: 4px solid #667eea; }
-        .stat-card .label { font-size: 14px; color: #666; margin-bottom: 8px; }
-        .stat-card .value { font-size: 32px; font-weight: 700; color: #667eea; }
         .footer { background: #f8f9fa; padding: 30px 40px; text-align: center; border-top: 1px solid #e0e0e0; }
         .footer p { color: #666; font-size: 14px; margin: 5px 0; }
-        @media print { body { background: white; padding: 0; } .container { box-shadow: none; } }
         @media (max-width: 768px) { .header { padding: 30px 20px; } .header h1 { font-size: 28px; } .content { padding: 20px; } }
     </style>
 </head>
@@ -64,150 +49,53 @@
         </div>
     </div>
     <div class="content">
-        <div class="stats-grid">
-            <div class="stat-card"><div class="label">本期文章</div><div class="value">14</div></div>
-            <div class="stat-card" style="border-left-color:#4caf50;"><div class="label">行业新闻</div><div class="value">3</div></div>
-            <div class="stat-card" style="border-left-color:#ff9800;"><div class="label">政策解读</div><div class="value">3</div></div>
-            <div class="stat-card" style="border-left-color:#e91e63;"><div class="label">行业干货</div><div class="value">5</div></div>
-            <div class="stat-card" style="border-left-color:#2196f3;"><div class="label">技术创新</div><div class="value">3</div></div>
+        <div class="article-card">
+            <div class="article-title"><a href="articles/article-1.html">中欧班列运力大比拼：成渝是主力 辽宁广西将成新星</a></div>
+            <div class="article-meta"><span class="source">📌 21世纪经济报道</span><span>📝 2855字</span></div>
+            <div class="article-summary">全面分析中欧班列各开行城市的运力布局和发展态势。成都、重庆作为主力军，开行量遥遥领先；西安、郑州、武汉等中部城市快速崛起；辽宁、广西等沿海沿边地区正在成为新的增长极。</div>
+            <a href="articles/article-1.html" class="article-link">阅读全文 →</a>
         </div>
 
-        <!-- 栏目一：行业新闻 -->
-        <div class="column">
-            <div class="column-header">
-                <div class="column-title"><span class="emoji">📰</span>行业新闻</div>
-                <div class="column-count">3篇</div>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836480&ver=6629&signature=6w2x5Z8e97MJ3VmHIU-LRqU9fQEe4iXueqGYUhM5Wd8dBXXm0es5a0K8B3mWdLS2H*onajTae2br20Be7pmStshE0nsiitMUoSXfpfh94Pg0PCTYddYLid1WLrmIy3T8&new=1" target="_blank">中欧班列"跑"出新纪录</a></div>
-                <div class="article-meta"><span class="source">📌 海外网</span></div>
-                <div class="article-summary">中欧班列开行数量再创新高，展现强劲发展势头。文章详细报道了中欧班列在运输量、覆盖范围、服务质量等方面的最新突破，分析了其在服务"一带一路"建设、促进国际贸易中的重要作用。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836480&ver=6629&signature=6w2x5Z8e97MJ3VmHIU-LRqU9fQEe4iXueqGYUhM5Wd8dBXXm0es5a0K8B3mWdLS2H*onajTae2br20Be7pmStshE0nsiitMUoSXfpfh94Pg0PCTYddYLid1WLrmIy3T8&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836480&ver=6629&signature=EnjjbvL2FzoMrAxn*4bvZkLQ5k2wg2tzC5AtC3YGNrCXikCigfI-I9INuRA8X8j*z1lag41PD3Lz85J1CYqp9XndpuDP28kk-id7fVDJhadHluXjgL19xcRIg9aTA26f&new=1" target="_blank">中欧班列(西安)2026年开行突破1000列</a></div>
-                <div class="article-meta"><span class="source">📌 西安日报</span></div>
-                <div class="article-summary">西安中欧班列2026年开行量突破1000列大关，成为中欧班列的重要枢纽。文章介绍了西安班列的发展历程、运营特色、货源结构等，展现了西部地区在国际物流中的重要地位。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836480&ver=6629&signature=EnjjbvL2FzoMrAxn*4bvZkLQ5k2wg2tzC5AtC3YGNrCXikCigfI-I9INuRA8X8j*z1lag41PD3Lz85J1CYqp9XndpuDP28kk-id7fVDJhadHluXjgL19xcRIg9aTA26f&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836480&ver=6629&signature=6w2x5Z8e97MJ3VmHIU-LRqU9fQEe4iXueqGYUhM5Wd-29t4iSWT9HGbRAILfJkoY*HUqxb9urK-2EA0EY3-ogADtTf*8jliUtl9i665FqWBb*TgU959mV02BuevVR5wj&new=1" target="_blank">中欧班列织起中国与中亚合作"金色网络"</a></div>
-                <div class="article-meta"><span class="source">📌 海外网</span></div>
-                <div class="article-summary">中欧班列在中国与中亚国家之间编织起一张"金色网络"，成为区域经济合作的重要纽带。文章分析了中欧班列在促进中亚贸易、推动产业合作、加强人文交流等方面的积极作用。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836480&ver=6629&signature=6w2x5Z8e97MJ3VmHIU-LRqU9fQEe4iXueqGYUhM5Wd-29t4iSWT9HGbRAILfJkoY*HUqxb9urK-2EA0EY3-ogADtTf*8jliUtl9i665FqWBb*TgU959mV02BuevVR5wj&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
+        <div class="article-card">
+            <div class="article-title"><a href="articles/article-2.html">中欧班列"跑"出新纪录</a></div>
+            <div class="article-meta"><span class="source">📌 海外网</span><span>📝 2095字</span></div>
+            <div class="article-summary">中欧班列开行数量再创新高，展现强劲发展势头。文章详细报道了中欧班列在运输量、覆盖范围、服务质量等方面的最新突破，分析了其在服务"一带一路"建设、促进国际贸易中的重要作用。</div>
+            <a href="articles/article-2.html" class="article-link">阅读全文 →</a>
         </div>
 
-        <!-- 栏目二：政策解读 -->
-        <div class="column">
-            <div class="column-header">
-                <div class="column-title"><span class="emoji">📋</span>政策解读</div>
-                <div class="column-count">3篇</div>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774823444&ver=6629&signature=UP0zQo-bGo6VzOxETu9Sg7KMbTODADft9Bh-HKgU*UQ3z3eyNNlyVGd7Tf5RYN9-hi3FEiJeefHF*EVVVkeGWU7L-miNxFpYGHrlzbtXvMwRaaVmb6BGLmYAJXvV0xaj&new=1" target="_blank">专家解读：下一步铁路货运怎么干？</a></div>
-                <div class="article-meta"><span class="source">📌 人民铁道</span><span>👤 国铁集团货运部主任 庄河</span></div>
-                <div class="article-summary">国铁集团货运部主任庄河深度解读铁路货运发展战略。系统阐述了"四补"经营策略，详细介绍了"六线六区域"挖潜、"公转铁""散改集"、中欧班列三大战略举措。核心数据：大秦线增长18%、唐包线增长82%、瓦日线增长58%、浩吉线增长201%；集装箱日均装车3.4万车，同比增长36%。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774823444&ver=6629&signature=UP0zQo-bGo6VzOxETu9Sg7KMbTODADft9Bh-HKgU*UQ3z3eyNNlyVGd7Tf5RYN9-hi3FEiJeefHF*EVVVkeGWU7L-miNxFpYGHrlzbtXvMwRaaVmb6BGLmYAJXvV0xaj&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774824107&ver=6629&signature=6NiFnauHr2MmlT0xDrOQJPx1eN2z5uwG49Lk*-uOetfGpuCunM6k4U8hVthZf*bmrjf3WqGMQKCFfVASb0zSb5RLrkSKF0UN648vCQ2-8F*EJmGdbA*Ps1LwVrQKJAT0&new=1" target="_blank">铁路货运"深改" | "铁老大"放下身段成"店小二"</a></div>
-                <div class="article-meta"><span class="source">📌 经济参考报</span></div>
-                <div class="article-summary">铁路货运正在经历深刻改革，从传统的"铁老大"姿态转变为市场化的"店小二"服务理念。文章深入分析了铁路货运市场化改革的背景、措施和成效，展现了铁路部门在服务意识、运营模式、客户体验等方面的全面转型。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774824107&ver=6629&signature=6NiFnauHr2MmlT0xDrOQJPx1eN2z5uwG49Lk*-uOetfGpuCunM6k4U8hVthZf*bmrjf3WqGMQKCFfVASb0zSb5RLrkSKF0UN648vCQ2-8F*EJmGdbA*Ps1LwVrQKJAT0&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836488&ver=6629&signature=bVVd1C0hu*DsRfYGnZvmD*hEpvxH-BNNJb3OYiKIItaiXWXEUWdbwzxp0GBChs946e*0Jh1ssHOCF7kVlsNOVP5bCryB6BUQ*obUFEycp6KMVcZEluH7LXk4nyNZ7nXu&new=1" target="_blank">《交通物流降本提质增效行动铁路、公路、水运、民航、邮政领域实施方案》解读</a></div>
-                <div class="article-meta"><span class="source">📌 陕西省物流与采购联合会</span></div>
-                <div class="article-summary">深度解读交通物流降本提质增效行动方案。系统分析了铁路在降低物流成本中的关键作用，提出了具体的实施路径和政策措施。重点包括：优化运输组织、提升服务质量、推进多式联运、加强信息化建设等。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836488&ver=6629&signature=bVVd1C0hu*DsRfYGnZvmD*hEpvxH-BNNJb3OYiKIItaiXWXEUWdbwzxp0GBChs946e*0Jh1ssHOCF7kVlsNOVP5bCryB6BUQ*obUFEycp6KMVcZEluH7LXk4nyNZ7nXu&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
+        <div class="article-card">
+            <div class="article-title"><a href="articles/article-3.html">中欧班列长安号开行量，突破3000列！</a></div>
+            <div class="article-meta"><span class="source">📌 西安大交通发布</span><span>📝 2597字</span></div>
+            <div class="article-summary">西安中欧班列长安号开行量突破3000列大关，成为中欧班列的重要枢纽。文章介绍了西安班列的发展历程、运营特色、货源结构等，展现了西部地区在国际物流中的重要地位。</div>
+            <a href="articles/article-3.html" class="article-link">阅读全文 →</a>
         </div>
 
-        <!-- 栏目三：行业干货 -->
-        <div class="column">
-            <div class="column-header">
-                <div class="column-title"><span class="emoji">🎓</span>行业干货</div>
-                <div class="column-count">5篇</div>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836488&ver=6629&signature=bVVd1C0hu*DsRfYGnZvmD*hEpvxH-BNNJb3OYiKIItY3RRvp3yjv1Sa*oH2SF-sHVEfPnT82kLeGyOEnx5Zd0rZ1I9D8JsJ2jX1ObkEMPD3iaXuWEVk9UuYTFNC6fCqJ&new=1" target="_blank">打通铁路运输"前后一公里" 助力交通物流降本提质增效</a></div>
-                <div class="article-meta"><span class="source">📌 陕西省物流与采购联合会</span></div>
-                <div class="article-summary">聚焦铁路运输"前后一公里"痛点，提出系统解决方案。分析了货场与客户之间的"最后一公里"配送问题，以及货源地到货场的"第一公里"集货问题，提出了多式联运、共同配送、信息共享等创新模式。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836488&ver=6629&signature=bVVd1C0hu*DsRfYGnZvmD*hEpvxH-BNNJb3OYiKIItY3RRvp3yjv1Sa*oH2SF-sHVEfPnT82kLeGyOEnx5Zd0rZ1I9D8JsJ2jX1ObkEMPD3iaXuWEVk9UuYTFNC6fCqJ&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836488&ver=6629&signature=7He-HuoEeWANK*SquE3RWotLPf436dDpbc68YdWpxcEperNUExnsRY8aXj29BuvQCkWeigMul9EeyEqPXKVWtPPv9g0uzV2*OrJMaIYzkkUaekn2AJ0RQRA*-x7A2Zid&new=1" target="_blank">铁路物流中心降本增效有实招</a></div>
-                <div class="article-meta"><span class="source">📌 陕焦化工有限公司</span></div>
-                <div class="article-summary">铁路物流中心降本增效实战案例分享。通过优化作业流程、提升装卸效率、减少空驶率、加强成本管控等措施，实现年度成本下降15%、效率提升25%。具体措施包括：引入智能调度系统、优化货位管理、实施精益化管理等。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836488&ver=6629&signature=7He-HuoEeWANK*SquE3RWotLPf436dDpbc68YdWpxcEperNUExnsRY8aXj29BuvQCkWeigMul9EeyEqPXKVWtPPv9g0uzV2*OrJMaIYzkkUaekn2AJ0RQRA*-x7A2Zid&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836484&ver=6629&signature=dMcTSU0Y9uEise8uHReip9UIXjSjl3GtvLEWW9pQ0wz-wJSJ4FZUaB-J0jL7-y2v8vJmXnzvLoFH9FOwWrWZkdhCXsTkfHzoNu6n4frb38IUSI*woRt4E33dGR1t-djS&new=1" target="_blank">广州港正式运营铁路货场</a></div>
-                <div class="article-meta"><span class="source">📌 广东交通</span></div>
-                <div class="article-summary">广州港铁路货场正式投入运营，年设计吞吐能力达200万标箱。通过海铁联运，货物从广州港到内陆城市的运输时间缩短40%，成本降低25%。为港口与铁路深度融合、发展多式联运提供了成功范例。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836484&ver=6629&signature=dMcTSU0Y9uEise8uHReip9UIXjSjl3GtvLEWW9pQ0wz-wJSJ4FZUaB-J0jL7-y2v8vJmXnzvLoFH9FOwWrWZkdhCXsTkfHzoNu6n4frb38IUSI*woRt4E33dGR1t-djS&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836484&ver=6629&signature=vVgvtieR7crQmOxqExE0fllOoSPN-uzxTRFo8imjNbtI*4ZoEVFmBh-p2L*3wZS3lTHoyILTd-6Iuszjye8WNXcKyJwAoCRKt0yflln4Rcq*66aUWL2jxppc5wX-sI1N&new=1" target="_blank">百年枢纽升级！镇瑞铁路上隍站货场开通运营</a></div>
-                <div class="article-meta"><span class="source">📌 中铁十六局</span></div>
-                <div class="article-summary">镇瑞铁路上隍站货场完成升级改造并开通运营。作为百年铁路枢纽，上隍站通过现代化改造，引入智能化装卸设备、信息管理系统，大幅提升了货运能力和服务水平，为区域经济发展提供了有力支撑。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774836484&ver=6629&signature=vVgvtieR7crQmOxqExE0fllOoSPN-uzxTRFo8imjNbtI*4ZoEVFmBh-p2L*3wZS3lTHoyILTd-6Iuszjye8WNXcKyJwAoCRKt0yflln4Rcq*66aUWL2jxppc5wX-sI1N&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=3&timestamp=1774824107&ver=1&signature=uWUHJ9OvOaKY2BC6bSURCPITyr0e9hAlGMLYM6aJJKmhqkZ*pCihmfMQGa92Fu8K3T9VVBQOgjHNT3RD7K8uKmYJ*NEjg5GwO3JL8dbPqQYx0CwaUcZG*jXYBP4QZpTU3kLtaqXsLZQLft4NAQGkQDhQ1o5tJfu7AjRsn2DKvXo=" target="_blank">中国铁路货运实现了神奇的"四连增"</a></div>
-                <div class="article-meta"><span class="source">📌 铁路观察</span></div>
-                <div class="article-summary">中国铁路货运连续四年实现增长，创造了行业奇迹。详细解读了"四连增"背后的原因：基础设施持续完善、运输组织不断优化、服务质量显著提升、市场化改革深入推进等多方面因素。</div>
-                <a href="https://mp.weixin.qq.com/s?src=3&timestamp=1774824107&ver=1&signature=uWUHJ9OvOaKY2BC6bSURCPITyr0e9hAlGMLYM6aJJKmhqkZ*pCihmfMQGa92Fu8K3T9VVBQOgjHNT3RD7K8uKmYJ*NEjg5GwO3JL8dbPqQYx0CwaUcZG*jXYBP4QZpTU3kLtaqXsLZQLft4NAQGkQDhQ1o5tJfu7AjRsn2DKvXo=" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
+        <div class="article-card">
+            <div class="article-title"><a href="articles/article-4.html">《交通物流降本提质增效行动实施方案》解读</a></div>
+            <div class="article-meta"><span class="source">📌 陕西省物流与采购联合会</span><span>📝 10851字</span></div>
+            <div class="article-summary">深度解读交通物流降本提质增效行动方案。系统分析了铁路在降低物流成本中的关键作用，提出了具体的实施路径和政策措施。重点包括：优化运输组织、提升服务质量、推进多式联运、加强信息化建设等。</div>
+            <a href="articles/article-4.html" class="article-link">阅读全文 →</a>
         </div>
 
-        <!-- 栏目四：技术创新 -->
-        <div class="column">
-            <div class="column-header">
-                <div class="column-title"><span class="emoji">💡</span>技术创新</div>
-                <div class="column-count">3篇</div>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774824111&ver=6629&signature=YIN1lhJeefHF*EVVVkeGWU7L-miNxFpYGHrlzbtXvMwRaaVmb6BGLmYAJXvV0xaj&new=1" target="_blank">集团公司与华为公司共商铁路智能化建设事宜</a></div>
-                <div class="article-meta"><span class="source">📌 南宁铁道</span></div>
-                <div class="article-summary">铁路集团与华为公司达成战略合作，共同推进铁路智能化建设。双方将在5G、云计算、大数据、人工智能等领域开展深度合作，打造智慧铁路新生态。重点合作方向包括：智能调度系统、无人驾驶技术、智慧货场、数字化运营平台等。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774824111&ver=6629&signature=YIN1lhJeefHF*EVVVkeGWU7L-miNxFpYGHrlzbtXvMwRaaVmb6BGLmYAJXvV0xaj&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=3&timestamp=1774824111&ver=1&signature=vWszNpIcuwJeefHF*EVVVkeGWU7L-miNxFpYGHrlzbtXvMwRaaVmb6BGLmYAJXvV0xaj" target="_blank">哈尔滨局："掌上货运"助力铁路智能化物流管理</a></div>
-                <div class="article-meta"><span class="source">📌 人民铁道</span></div>
-                <div class="article-summary">哈尔滨铁路局推出"掌上货运"移动应用，实现货运业务全流程线上办理。客户可通过手机完成货物查询、运单跟踪、在线支付、电子签收等操作，大幅提升了服务效率和用户体验。</div>
-                <a href="https://mp.weixin.qq.com/s?src=3&timestamp=1774824111&ver=1&signature=vWszNpIcuwJeefHF*EVVVkeGWU7L-miNxFpYGHrlzbtXvMwRaaVmb6BGLmYAJXvV0xaj" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
-
-            <div class="article-card">
-                <div class="article-title"><a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774824111&ver=6629&signature=egkyNnJeefHF*EVVVkeGWU7L-miNxFpYGHrlzbtXvMwRaaVmb6BGLmYAJXvV0xaj&new=1" target="_blank">探访我国首条智能化高铁：京张高铁引领铁路新潮流</a></div>
-                <div class="article-meta"><span class="source">📌 中国纪检监察报</span></div>
-                <div class="article-summary">京张高铁作为我国首条智能化高铁，展现了中国铁路技术创新的最新成果。包括BIM技术全生命周期管理、智能动车组、自动驾驶系统、智能调度指挥系统等。其智能化技术和管理经验对货运领域同样具有重要借鉴意义。</div>
-                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1774824111&ver=6629&signature=egkyNnJeefHF*EVVVkeGWU7L-miNxFpYGHrlzbtXvMwRaaVmb6BGLmYAJXvV0xaj&new=1" class="article-link" target="_blank">阅读原文 →</a>
-            </div>
+        <div class="article-card">
+            <div class="article-title"><a href="articles/article-5.html">为何说提升铁路占比为物流降本增效的重要手段？</a></div>
+            <div class="article-meta"><span class="source">📌 中铁95306</span><span>📝 4290字</span></div>
+            <div class="article-summary">深度分析铁路运输在降低物流成本中的关键作用。从运输成本、能源消耗、环境影响等多个维度，系统论证了提升铁路运输占比的必要性和可行性。通过"公转铁"，企业物流成本可降低20-30%。</div>
+            <a href="articles/article-5.html" class="article-link">阅读全文 →</a>
         </div>
 
+        <div class="article-card">
+            <div class="article-title"><a href="articles/article-6.html">铁路物流中心降本增效有实招</a></div>
+            <div class="article-meta"><span class="source">📌 陕焦化工有限公司</span><span>📝 910字</span></div>
+            <div class="article-summary">铁路物流中心降本增效实战案例分享。通过优化作业流程、提升装卸效率、减少空驶率、加强成本管控等措施，实现年度成本下降15%、效率提升25%。</div>
+            <a href="articles/article-6.html" class="article-link">阅读全文 →</a>
+        </div>
     </div>
     <div class="footer">
         <p><strong>出版人：</strong>刘耕辰 | G7易流</p>
         <p><strong>发布时间：</strong>2026年3月30日</p>
         <p><strong>简报编号：</strong>001 | 每日更新</p>
-        <p style="margin-top:15px;color:#999;">本简报内容来源于公开渠道，仅供行业交流参考</p>
+        <p style="margin-top:15px;color:#999;">本期共6篇文章，总计23,598字 | 所有文章内容已完整收录</p>
     </div>
 </div>
 </body>
